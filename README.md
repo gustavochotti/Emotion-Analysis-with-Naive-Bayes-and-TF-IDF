@@ -106,7 +106,6 @@ The project requires the following Python libraries:
 - `numpy`
 - `scikit-learn`
 - `joblib`
-- `pandas` (optional, for working with CSV files)
 
 Install all dependencies using the provided `requirements.txt`.
 
