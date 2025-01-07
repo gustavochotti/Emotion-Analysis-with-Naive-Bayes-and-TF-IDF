@@ -58,7 +58,7 @@ This project provides a machine learning solution for classifying textual data i
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your-username/emotion-analysis.git
+   git clone https://github.com/gustavochotti/emotion-analysis.git
    cd emotion-analysis
    ```
 
