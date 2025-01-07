@@ -35,11 +35,11 @@ This project provides a machine learning solution for classifying textual data i
      - Splits the data into training and testing sets.
      - Transforms the text data into numerical vectors using the **TF-IDF Vectorizer**.
      - Trains a **Multinomial Naive Bayes Classifier** using the processed data.
-     - Saves the trained model (`naive_bayes_emotions_model.pkl`) and the TF-IDF vectorizer (`tfidf_vectorizer_emotions.pkl`) into the `pre-trained_models/` directory.
+     - Saves the trained model (`naive_bayes_emotions_model.pkl`) and the TF-IDF vectorizer (`tfidf_vectorizer_emotions.pkl`).
 
 2. **Analyzing Emotions**:
    - The `analyze_emotions.py` script:
-     - Loads the pre-trained Naive Bayes model and TF-IDF vectorizer from the `pre-trained_models/` directory.
+     - Loads the pre-trained Naive Bayes model and TF-IDF vectorizer.
      - Transforms the input text using the TF-IDF vectorizer.
      - Predicts the emotional category of the input text using the Naive Bayes model.
 
@@ -79,7 +79,7 @@ To train the model with your own dataset:
 python train_model.py
 ```
 - Replace `emotions.csv` with your own dataset file.
-- The trained model and vectorizer will be saved in the `pre-trained_models/` directory.
+- The trained model and vectorizer will be saved in the same directory.
 
 ### 2. Analyzing Emotions
 To predict emotions for new text using the pre-trained models:
@@ -106,7 +106,6 @@ The project requires the following Python libraries:
 - `numpy`
 - `scikit-learn`
 - `joblib`
-- `matplotlib` (optional, for visualization)
 - `pandas` (optional, for working with CSV files)
 
 Install all dependencies using the provided `requirements.txt`.
