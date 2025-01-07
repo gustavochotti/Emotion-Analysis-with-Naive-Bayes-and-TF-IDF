@@ -113,13 +113,6 @@ Install all dependencies using the provided `requirements.txt`.
 
 ---
 
-## Future Improvements
-- Add support for more complex models like SVM or neural networks.
-- Improve emotion categories to handle nuanced sentiments.
-- Include visualization of predictions directly in `analyze_emotions.py`.
-
----
-
 ## License
 This project is licensed under the MIT License. See the `LICENSE` file for more details.
 
